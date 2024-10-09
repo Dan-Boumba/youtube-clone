@@ -1,0 +1,56 @@
+.yout {
+  background-color: #CC0000;
+  text-transform: uppercase;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.yout:hover {
+  opacity: 0.8;
+}
+
+.yout:active {
+  opacity: 0.4;
+}
+
+.join-btn {
+  color: #065fd4;
+  text-transform: uppercase;
+  border: 1px solid #065fd4;
+  padding: 10px 15px;
+  background-color: white;
+  cursor: pointer;
+  margin-left: 8px;
+  border-radius: 2px;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.join-btn:hover {
+  background-color: #065fd4;
+  color: white;
+}
+
+.join-btn:active {
+  opacity: 0.7;
+}
+
+.tweet-btn {
+  background-color: #1D9BF0;
+  border-radius: 40px;
+  padding: 10px 15px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor:  pointer;
+  margin-left: 8px;
+  transition: box-shadow 0.15s;
+}
+
+.tweet-btn:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .15);
+
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex Practice</title>
+
+  <style>
+    .header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background-color: blueviolet;
+      padding: 10px;
+    }
+
+    .home {
+      width: 150px;
+    }
+
+    .search {
+      flex: 1;
+      border-radius: 60px;
+      padding: 6px 20px;
+      border: none;
+      max-width: 500px;
+      height: 30px;
+    }
+
+    .download-btn {
+      width: 100px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="header">
+    <p class="home">
+      Home
+    </p>
+    <input type="text" placeholder="Search" class="search">
+    <button class="download-btn">
+      Download
+    </button>
+  </div>
+</body>
+</html>
